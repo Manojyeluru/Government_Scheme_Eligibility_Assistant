@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Central Government Schemes</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <header>
+        <h1 id="schemes-title">Schemes of Central Government</h1>
+        <div class="buttons">
+            <a href="index.html" id="prev-btn">Previous</a>
+        </div>
+    </header>
+
+    <section class="container">
+        <label for="occupation" id="occupation-label">Select Your Occupation:</label><br>
+        <select id="occupation" name="occupation" onchange="showSchemes()">
+            <option value="">--Select--</option>
+            <option value="student" id="student">Student</option>
+            <option value="employed" id="employed">Employed</option>
+            <option value="unemployed" id="unemployed">Unemployed</option>
+            <option value="farmer" id="farmer">Farmer</option>
+            <option value="senior_citizen" id="senior_citizen">Senior Citizen</option>
+            <option value="others" id="others">Others</option>
+        </select>
+        
+        <br>
+        <h3 id="select-scheme-label">Select a Scheme:</h3>
+        <select id="schemes">
+            <option value="">--Select--</option>
+        </select>
+        <br>
+
+        <a href="eligibility.html" class="btn" id="continue-btn">Continue</a>
+    </section>
+
+</body>
+</html>

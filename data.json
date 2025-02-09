@@ -1,0 +1,17 @@
+{
+    "schemes": {
+        "National Scholarship Scheme": { "age": 25, "income": 500000 },
+        "PM eVidya": { "age": 30 },
+        "Skill India": { "income": 300000 },
+        "EPFO Pension Scheme": { "age": 58 },
+        "Pradhan Mantri Jan Arogya Yojana (PM-JAY)": { "income": 500000 },
+        "Mahatma Gandhi NREGA": { "age": 18 },
+        "PM Kaushal Vikas Yojana (PMKVY)": { "age_min": 15, "age_max": 45 },
+        "PM Kisan Samman Nidhi": { "income": 300000 },
+        "Fasal Bima Yojana": { "age": 18 },
+        "Pradhan Mantri Vaya Vandana Yojana": { "age": 60 },
+        "Varishtha Pension Bima Yojana": { "age": 60 },
+        "Ayushman Bharat": { "income": 500000 },
+        "Stand-Up India Scheme": { "age_min": 18, "age_max": 65 }
+    }
+}
